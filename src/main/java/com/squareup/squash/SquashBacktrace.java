@@ -140,3 +140,13 @@ public final class SquashBacktrace {
     }
   }
 }
+import java.sql.*;
+
+public class Test {
+    public static void main(String[] args) throws Exception {
+        String userInput = "admin";
+        Statement stmt = null;
+
+        String query = "SELECT * FROM users WHERE name = '" + userInput + "'";
+    }
+}
